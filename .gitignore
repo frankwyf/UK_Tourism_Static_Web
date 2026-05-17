@@ -9,3 +9,7 @@ Thumbs.db
 
 # Optional local cache
 .cache/
+
+# Large media excluded from git history/push (distribute separately)
+site/england/palace.mp4
+site/scotland/S.mp4
