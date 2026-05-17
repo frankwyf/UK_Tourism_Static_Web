@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+  <meta http-euqiv="X-UA-Compatible" content="IE=edge" />
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="Login.css" />
+</head>
+
+<body id="login">
+  <div class="dowebok">
+    <div class="page">
+      <div class="logo"></div>
+      <div id="information">
+        <input type="button" value="HOME" onclick="javascrtpt:window.location.href='../Frontpage.html'" />
+        <br />
+        <label for="sitename">鐢ㄦ埛鍚?Username)锛?/label>
+        <input type="text" placeholder="Username" id="sitename" name="sitename" class="text" />
+        <br />
+        <label for="siteurl">瀵嗙爜(Password)锛?/label>
+        <input type="text" placeholder="Password" id="siteurl" name="siteurl" />
+        <br />
+        <input id="registerbutton" type="button" onclick="save()" value="Register" />
+        <br />
+        <label for="search_phone">Forgrt passaword?</label>
+        <input type="text" placeholder="Username" id="search_site" name="search_site" />
+        <br />
+        <input id="registerbutton" type="button" onclick="find()" value="Retrieve" />
+        <p id="find_result"></p>
+        <input id="registerbutton" type="button" onclick="startWorker()" value="Log in" />
+        <input id="registerbutton" type="button" onclick="stopWorker()" value="Log out" />
+        <p>Logged in for:<output id="result"></output></p>
+      </div>
+      <br />
+      <div id="list">
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../js/login.js"></script>
+  <script type="text/javascript" src="../js/logintime.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,28 @@
+CACHE MANIFEST
+../css/stylesheet.css
+../js/JavaScript.js
+../js/JQuery.js
+
+ NETWORK:
+../england/englandflag.jpg
+../england/palace.jpg
+../england/london.jpg
+../england/london1.jpg
+../england/bpalace.jpg
+../england/bpalace1.jpg
+../england/palace.mp4
+../england/john.jpg
+../england/victoria.jpg
+../england/aston.jpg
+../england/royal.jpg
+../england/londontower.jpg
+../england/leedslocation.png
+../england/leedsrail.jpg
+../england/uolcampus.jpg
+../england/leeds.mp4
+../england/leeds2.mp4
+../england/leedsstreet.jpg
+../england/uol.jpg
+
+ FALLBACK:
+ /html/ /html/author.html

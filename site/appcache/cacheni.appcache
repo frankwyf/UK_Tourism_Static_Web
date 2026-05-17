@@ -1,0 +1,20 @@
+CACHE MANIFEST
+../css/stylesheet.css
+../js/JavaScript.js
+../js/JQuery.js
+
+ NETWORK:
+../ni/NIflag.png
+../ni/sni.png
+../ni/b1.jpg
+../ni/b2.jpg
+../ni/b3.jpg
+../ni/b4.jpg
+../ni/b5.jpg
+../ni/port.png
+../ni/navy.jpg
+../ni/iwhisky.jpg
+../ni/iwhisky1.jpg
+
+ FALLBACK:
+ /html/ /html/author.html

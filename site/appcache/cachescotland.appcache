@@ -1,0 +1,28 @@
+CACHE MANIFEST
+../css/stylesheet.css
+../js/JavaScript.js
+../js/JQuery.js
+
+ NETWORK:
+../scotland/scotflag.jpg
+../scotland/rc.jpg
+../scotland/S.mp4
+../scotland/scot1.jpg
+../scotland/scot2.jpg
+../scotland/ed.mp4
+../scotland/sw1.png
+../scotland/sw2.jpg
+../scotland/sw3.jpg
+../scotland/swi.jpg
+../scotland/single.jpg
+../scotland/single1.jpg
+../scotland/scotch.jpg
+../scotland/scotch1.jpg
+../scotland/scotch2.jpg
+../scotland/rye.jpg
+../scotland/rye1.jpg
+../scotland/rye1.jpg
+../scotland/swhisky.mp4
+
+ FALLBACK:
+ /html/ /html/author.html

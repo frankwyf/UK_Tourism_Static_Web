@@ -1,19 +1,17 @@
-# 贡献指南（Contributing Guide）
+# Contributing
 
-欢迎任何人参与本项目的改进！
+## How to Contribute
+1. Fork the repository
+2. Create a feature branch
+3. Commit with clear messages
+4. Open a pull request with context and screenshots (if UI-related)
 
-## 如何贡献
-1. Fork 本仓库，创建新分支
-2. 提交更改，附带清晰的 commit 信息
-3. 发起 Pull Request，描述你的修改内容和动机
+## Scope
+- Preserve legacy visual/behavior parity unless a change is explicitly proposed
+- Keep relative paths stable inside site/
+- Avoid introducing framework dependencies unless discussed first
 
-## 代码规范
-- 遵循统一的代码风格（见 src/ 示例）
-- 保持注释完善，便于他人理解
-- 新增功能请补充文档说明
-
-## 问题反馈
-如发现Bug或有建议，请通过Issue反馈，欢迎讨论！
-
-## 许可协议
-本项目采用 MIT License，详情见 LICENSE 文件。
+## Checks Before PR
+- Open site/index.html and key pages under site/html/
+- Verify CSS/JS/media still load correctly
+- Ensure no personal sensitive data is introduced

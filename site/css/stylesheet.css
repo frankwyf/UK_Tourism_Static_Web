@@ -1,0 +1,1305 @@
+@charset "UTF-8";
+
+p.et {
+  font-family: fantasy;
+}
+
+header, footer {
+  padding: 1em;
+  color: #996633;
+  clear: left;
+  text-align: center;
+  font-size: 20px;
+}
+
+header.tr {
+  background: url("homepage/londonbridge.jpg");
+  float: left;
+}
+
+footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  background-color: #00FFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+#login {
+  height: 100%;
+  background: #fff url(../homepage/login.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.dowebok {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 430px;
+  height: 550px;
+  margin: -300px 0 0 -215px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.page {
+  font-size: 20px;
+  background-attachment: fixed;
+  backdrop-filter: blur(15px);
+  backdrop-filter: contrast(30%);
+  backdrop-filter: brightness(30%);
+  color: #FFC0CB;
+}
+
+.logo {
+  width: 104px;
+  height: 104px;
+  margin: 50px auto 80px;
+  background: url(../homepage/title.png) 0 0 no-repeat;
+}
+
+.form-item {
+  position: relative;
+  width: 360px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.form-item input {
+  width: 288px;
+  height: 48px;
+  padding-left: 70px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+}
+
+.form-item button {
+  width: 360px;
+  height: 50px;
+  border: 0;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #1f6f4a;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+#username {
+  background-color: #00FFFF;
+  20px 14px no-repeat;
+}
+
+#password {
+  background-color: #00FFFF;
+  23px 11px no-repeat;
+}
+
+.tip {
+  display: none;
+  position: absolute;
+  left: 20px;
+  top: 52px;
+  font-size: 14px;
+  color: #f50;
+}
+
+.reg-bar {
+  width: 360px;
+  margin: 20px auto 0;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.reg-bar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.reg-bar a:hover {
+  text-decoration:
+    underline;
+}
+
+.reg-bar .reg {
+  float: left;
+}
+
+.reg-bar .forget {
+  float: right;
+}
+
+.dowebok ::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.dowebok :-moz-placeholder {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.dowebok ::-moz-placeholder {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.dowebok :-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .dowebok {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0 30px;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .logo {
+    margin: 50px auto;
+  }
+
+  .form-item {
+    width: auto;
+  }
+
+  .form-item input, .form-item button, .reg-bar {
+    width: 100%;
+  }
+}
+
+.background {
+  background-image: url("../homepage/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 6%;
+}
+
+.contenth {
+  font-size: 20px;
+  background-attachment: fixed;
+  backdrop-filter: blur(15px);
+  backdrop-filter: contrast(30%);
+  backdrop-filter: brightness(30%);
+  color: #FFFAF0;
+}
+
+.background1 {
+  background-image: url("../england/bg.jpg");
+}
+
+.content1 {
+  font-size: 20px;
+  background-attachment: fixed;
+  backdrop-filter: blur(15px);
+  backdrop-filter: contrast(30%);
+  backdrop-filter: brightness(30%);
+  color: #FFC0CB;
+}
+
+.backgrounda {
+  background-image: url("../hoempage/location.gif");
+}
+
+.contenta {
+  font-size: 20px;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+  backdrop-filter: contrast(30%);
+  backdrop-filter: brightness(30%);
+  color: #90EE90;
+}
+
+.background2 {
+  background-image: url("../walse/bg.jpg");
+}
+
+.content2 {
+  font-size: 20px;
+  background-attachment: fixed;
+  backdrop-filter: blur(15px);
+  backdrop-filter: contrast(30%);
+  backdrop-filter: brightness(30%);
+  color: #00FA9A;
+}
+
+.background3 {
+  background-image: url("../scotland/bg.jpg");
+}
+
+.content3 {
+  font-size: 20px;
+  background-attachment: fixed;
+  backdrop-filter: blur(20px);
+  backdrop-filter: contrast(30%);
+  backdrop-filter: brightness(20%);
+  color: #FF6347;
+}
+
+.background4 {
+  background-image: url("../ni/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.content4 {
+  font-size: 20px;
+  background-attachment: fixed;
+  backdrop-filter: blur(20px);
+  backdrop-filter: contrast(30%);
+  backdrop-filter: brightness(40%);
+  color: #ADFF2F;
+}
+
+img.ht {
+  height: 8%;
+  width: 8%;
+  float: left;
+}
+
+.zoom img {
+  max-width: 600px;
+  max-height: 600px;
+  margin-left: 100px;
+}
+
+.zoom img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+
+.m1 {
+  list-style-type: none;
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+  top: 0;
+  left: 0;
+}
+
+.nav2 {
+  float: left;
+  width: 20%;
+}
+
+.nav1 {
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 14px 1px;
+  background-color: #33cc33;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #6666ff;
+  text-decoration: none;
+}
+
+.hometitle1 {
+  background-color: #efefef;
+  font-family: fantasy;
+  padding: 1px;
+  margin-top: 1%;
+}
+
+.homev1 {
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+  max-height: 400px;
+}
+
+#tt1 {
+  text-align: center;
+}
+
+.premenu {
+  width: 100px;
+  box-sizing: content-box;
+  border: inset #3366ff;
+}
+
+.frontpage1 {
+  height: 30%;
+  width: 40%;
+  float: left;
+}
+
+#athem {
+  margin-left: 100px;
+}
+
+.frontpage2 {
+  height: 375px;
+  width: 40%;
+  margin-left: 20px;
+}
+
+.frontpage3 {
+  height: 30%;
+  width: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.frontpage4 {
+  height: 30%;
+  width: 40%;
+  float: left;
+}
+
+.minimenu {
+  width: 100%;
+  height: 100%;
+  border-right: 0;
+}
+
+body.england {
+  background-color: #ccffff;
+}
+
+.lv {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.leedsu {
+  border: solid;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.ls {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.ul {
+  width: 500px;
+  height: 400px;
+}
+
+.et1 {
+  height: 10%;
+  width: 10%;
+}
+
+header.bottommenu {
+  color: #ff0000;
+  background-color: white;
+  clear: left;
+  text-align: center;
+}
+
+header.bottommenu h3 {
+  text-decoration: none;
+}
+
+#p1 {
+  width: 30%;
+  height: 50px;
+  box-sizing: content-box;
+  border: dotted #3366ff
+}
+
+#p2 {
+  font-family: fantasy;
+  width: 30%;
+  height: 50px;
+  box-sizing: content-box;
+  border: dotted #3366ff
+}
+
+.walesflag {
+  width: 10%;
+  height: 10%;
+}
+
+#wales {
+  background-color: #ffccff;
+}
+
+img.conwy {
+  height: 40%;
+  width: 50%;
+}
+
+img.castle1 {
+  height: 470px;
+  width: 600px;
+}
+
+.poster3 {
+  text-align: center;
+}
+
+.moreinfo {
+  background-color: #ffcccc;
+  color: black;
+  width: 40%;
+  height: 30%;
+  box-sizing: content-box;
+  border: groove #3366ff;
+  text-align: center;
+}
+
+.et2 {
+  width: 10%;
+  height: 10%;
+}
+
+.S {
+  margin-left: 100px;
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+  max-height: 500px;
+  margin-bottom: -170px;
+}
+
+.rsp {
+  width: 500px;
+  height: 350px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.palace {
+  width: 30%;
+  height: 40%;
+}
+
+.palace2 {
+  width: 30%;
+  height: 70%;
+  margin-left: 70px;
+}
+
+.palace3 {
+  width: 20%;
+  height: 5%;
+  margin-left: 70px;
+}
+
+.uni {
+  text-decoration: none;
+  float: right;
+}
+
+video.wv {
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  max-height: 500px;
+}
+
+.etitle {
+  text-align: center;
+}
+
+.stitle {
+  text-align: center;
+}
+
+.m1 {
+  text-align: center;
+}
+
+.Scotland {
+  background-color: #ccffcc;
+}
+
+#sw3 {
+  width: 100%;
+  height: 100%;
+}
+
+.pl {
+  width: 50%;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 350px;
+}
+
+.swhisky {
+  width: 70%;
+  height: 70%;
+}
+
+#swhi {
+  text-align: center;
+}
+
+.it {
+  width: 10%;
+  height: 10%;
+  float: right;
+}
+
+.nifore {
+  text-align: center;
+}
+
+.b1 {
+  width: 30%;
+  height: 40%;
+}
+
+#port {
+  height: 100%;
+  width: 100%;
+}
+
+.northern {
+  background-color: #ffcccc;
+}
+
+.iw {
+  margin-left: 50px;
+  width: 400px;
+  height: 300px;
+}
+
+#scotland1 {
+  margin-left: 80px;
+}
+
+#scotland2 {
+  margin-left: 150px;
+}
+
+.ed {
+  width: 50%;
+  height: 60%;
+  margin-left: 350px;
+  margin-top: 80px;
+}
+
+.bpalace {
+  width: 40%;
+  height: 40%;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.bpalace1 {
+  width: 40%;
+  height: 350px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.his1 {
+  width: 100%;
+  height: 100%;
+}
+
+.his4 {
+  width: 100%;
+  height: 100%;
+}
+
+.lodontower {
+  width: 100%;
+  height: 100%;
+}
+
+.leedslocation {
+  width: 100%;
+  height: 100%;
+}
+
+.leedsrail {
+  width: 100%;
+  height: 100%;
+}
+
+.uolcampus {
+  width: 100%;
+  height: 100%;
+}
+
+#minimenu {
+  border: 2px solid blue;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto
+}
+
+#authorpage {
+  background-color: #F0F8FF;
+}
+
+#author {
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+#uol {
+  width: 10%;
+  height: 10%;
+}
+
+#swjtu {
+  float: right;
+  width: 20%;
+  height: 50%;
+}
+
+#author1 {
+  margin-left: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+#author2 {
+  margin-left: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+#author3 {
+  margin-left: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+#scotlandwhisky {
+  margin-left: 150px;
+}
+
+#scotlandwhisky1 {
+  width: 200px;
+  height: 300px;
+  margin-left: 150px;
+}
+
+#scotch {
+  width: 100%;
+  height: 100%;
+}
+
+#rye {
+  margin-left: 150px;
+}
+
+#rye1 {
+  margin-left: 150px;
+  height: 300px;
+}
+
+#contact {
+  color: #00FFFF;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#author {
+  color: yellow;
+  text-decoration: blink;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 100px auto 0 auto;
+  box-shadow: 0 0 5px green;
+  overflow: hidden;
+}
+
+.container .wrap {
+  position: absolute;
+  width: 4200px;
+  height: 400px;
+  z-index: 1;
+}
+
+.container .wrap img {
+  float: left;
+  width: 600px;
+  height: 400px;
+}
+
+.container .buttons {
+  position: absolute;
+  right: 5px;
+  bottom: 40px;
+  width: 150px;
+  height: 10px;
+  z-index: 2;
+}
+
+.container .buttons span {
+  margin-left: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.container .buttons span.on {
+  background-color: red;
+}
+
+.container .arrow {
+  position: absolute;
+  top: 35%;
+  color: green;
+  padding: 0px 14px;
+  border-radius: 50%;
+  font-size: 50px;
+  z-index: 2;
+  display: none;
+}
+
+.container .arrow_left {
+  left: 10px;
+}
+
+.container .arrow_right {
+  right: 10px;
+}
+
+.container:hover .arrow {
+  display: block;
+}
+
+.container .arrow:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#flagCanvas {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  transform-origin: center;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+#box {
+  border: 1px solid #00FFFF;
+  margin: 0 auto;
+  height: 5%;
+  width: 35%;
+  overflow: hidden;
+}
+
+#boxcurrent {
+  border: 1px solid #FF7F50;
+  margin: 0 auto;
+  height: 5%;
+  width: 40%;
+  overflow: hidden;
+}
+
+.page-section {
+  padding: 8rem 0;
+  background-color: #263238;
+}
+
+#submit {
+  color: white;
+  background-color: black;
+}
+
+#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
+  max-width: 1920px;
+}
+
+#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
+  position: relative;
+  display: block;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(244, 98, 58, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+}
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+#map {
+  color: white;
+  background-color: green;
+  margin-right: 50%;
+  margin-left: 50%;
+}
+
+#currentlocation {
+  color: white;
+  background-color: green;
+  float: left;
+}
+
+.carousel-inner img {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+}
+
+#promote {
+  font-size: 20px;
+  color: black;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.big {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.pic {
+  width: 500px;
+  height: 400px;
+}
+
+.pic img {
+  position: absolute;
+  display: none;
+}
+
+.arr {
+  width: 40px;
+  height: 70px;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 70px;
+  text-align: center;
+  color: #ccc;
+  position: absolute;
+  top: 125px;
+  display: none;
+  cursor: pointer;
+}
+
+.l-arr {
+  left: 0px;
+}
+
+.r-arr {
+  right: 0px;
+}
+
+.big:hover .arr {
+  display: block;
+}
+
+.arr:hover {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.but {
+  position: absolute;
+  bottom: 15px;
+  right: 12px;
+}
+
+.but ul li {
+  list-style-type: none;
+  width: 30px;
+  height: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-left: 0px;
+  text-align: center;
+  font-family: "microsoft yahei";
+  line-height: 20px;
+  font-size: 12px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.but ul li:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.but .hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#getTime {
+  float: left;
+  margin: 37%;
+  margin-top: 15px;
+  background-color: #8470FF;
+  "
+
+}
+
+.swiper-list {
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #eee;
+  padding: 30px 0;
+}
+
+.swiper-main {
+  height: 100%;
+  position: relative;
+}
+
+.swiper-main img {
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0px;
+  border-radius: 4px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  z-index: 1002;
+}
+
+.leftBtn {
+  left: 0px;
+}
+
+.rightBtn {
+  right: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+#ul1 {
+  width: 660px;
+  position: relative;
+  margin: 10px auto;
+  margin-top: -120px;
+}
+
+#ul1 li {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  float: left;
+  list-style: none;
+  margin: 10px;
+}
+
+#ul1 li:hover {
+  border-color: #9a9fa4;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.85);
+}
+
+#ul1 .active {
+  border: 1px dashed red;
+}
+
+#tourinleeds {
+  margin-top: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.slideShow {
+  width: 60%;
+  height: auto;
+  border: 1px #eeeeee solid;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slideShow ul {
+  width: 4800px;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.slideShow ul li {
+  float: left;
+  width: 800px;
+}
+
+.slideShow .showNav {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.slideShow .showNav span {
+  cursor: pointer;
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background: #ff5a28;
+  margin-left: 2px;
+  color: #fff;
+}
+
+.slideShow .showNav .active {
+  background: #b63e1a;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#sitename {
+  background-color: #8470FF;
+}
+
+#siteurl {
+  background-color: #006400;
+}
+
+#search_site {
+  background-color: #5F9EA0;
+}
+
+#registerbutton {
+  color: black;
+}
+
+#information {
+  margin-top: -70px;
+  margin-left: 15%;
+  border: 2px dashed #ccc;
+  width: 320px;
+  height: 380px;
+  text-align: center;
+  "
+
+}
+
+#navvideo {
+  float：right； margin-right: 10%;
+  width: 50%;
+  height: 70%;
+}
+
+.container {
+  background-color: #F5F5DC;
+}
+
+#promoteh {
+  font-size: 20px;
+  color: black;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.twopage {
+  padding: 2px 0 0 2px;
+  height: auto;
+  position: relative;
+  margin-left: 20%;
+}
+
+.twopage-text {
+  width: 100%;
+  text-align: center;
+}
+
+.twopage-text-h1 {
+  margin-left: 120px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 20px 0 0 0;
+}
+
+.twopage-text-h1 img {
+  width: 120px;
+  margin-top: -20px;
+}
+
+.twopage .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.twopage-course {
+  float: left;
+  background: #ffffff;
+  padding: 0 2px 2px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.twopage-course>a {
+  width: 100%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.classicon h3 {
+  margin-top: 120px;
+  color: white;
+}
+
+.classicon h1 {
+  color: white;
+}
+
+.classicon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  opacity: 0;
+}
+
+.classicon:hover {
+  background: #1eb450;
+  opacity: 0.9;
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+}
+
+.twopagebtn {
+  width: 100%;
+  margin: 0% auto;
+  text-align: center;
+}
+
+.twopagebtn .btn-lg {
+  font-size: 25px;
+}
+
+#twopage-easy {
+  margin: 50px 0;
+  margin-bottom: 150px;
+}

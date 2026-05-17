@@ -1,0 +1,12 @@
+CACHE MANIFEST
+/css/stylesheet.css
+/js/JavaScript.js
+/js/JQuery.js
+
+ NETWORK:
+ /homepage/title.png
+ /homepage/intro.mp4
+ /homepage/location.gif
+
+ FALLBACK:
+ /html/ /html/author.html

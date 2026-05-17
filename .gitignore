@@ -1,18 +1,11 @@
-# Node/npm/yarn
-node_modules/
-dist/
-.cache/
-*.log
-
-# VSCode
-.vscode/
-
-# Mac/Windows
+# OS/editor artifacts
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
 
-# Build output
-build/
+# Logs
+*.log
 
-# Others
-.env
+# Optional local cache
+.cache/

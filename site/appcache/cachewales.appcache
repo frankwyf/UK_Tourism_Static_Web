@@ -1,0 +1,16 @@
+CACHE MANIFEST
+../css/stylesheet.css
+../js/JavaScript.js
+../js/JQuery.js
+
+ NETWORK:
+../walse/walesflag.png
+../walse/conwy.jpg
+../walse/castle1.jpg
+../walse/A1.jpg
+../walse/A2.jpg
+../walse/A3.jpg
+../walse/wales.mp4
+
+ FALLBACK:
+ /html/ /html/author.html

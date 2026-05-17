@@ -1,49 +1,37 @@
-# UK Tourism Modern Static Website
+# UK Tourism Static Website (Merged Final Edition)
 
-This project is a modernized, hand-crafted static website themed around UK tourism. It is designed to showcase advanced native web development skills, suitable for open source, portfolio, and job interviews.
+[中文说明](README.zh-CN.md) | [日本語説明](README.ja.md)
 
-## Multi-language Docs
-- [English (current)](README.md)
-- [简体中文 (Chinese)](README.zh-CN.md)
-- [日本語 (Japanese)](README.ja.md)
+This repository contains a full migration of the original CWK1 and CWK2 coursework websites into one final open-source edition.
+
+## What Was Merged
+- Base selected: CWK2 final work (feature-complete and richer structure)
+- Deduplication: CWK1 and CWK2 were compared; identical content was merged into one final edition
+- Preservation rule: page structure, visual style, and interaction behavior are kept as-is from the original final build
+
+## Privacy Sanitization
+Sensitive personal information has been removed from publishable site files:
+- personal names
+- student IDs
+- personal email addresses
+
+The website content and layout remain equivalent to the original final site, with only privacy-related text replacements.
 
 ## Project Structure
-- `src/`      — Main page source code (HTML5, CSS3, ES6+)
-- `public/`   — Entry files, favicon, and public resources
-- `assets/`   — Images, audio, video, and static assets
-- `scripts/`  — Build and automation scripts
-- `docs/`     — Design, upgrade, and contribution documents
+- site/: runnable final website (original relative asset structure preserved)
+- docs/: project and open-source documentation
 
-## Features
-- Semantic HTML5, responsive CSS3 (Flexbox, Grid, variables, dark mode)
-- Modern ES6+ JavaScript (modular, component-based, no heavy frameworks)
-- Responsive design for desktop and mobile
-- Smooth navigation, modern UI/UX, and subtle animations
-- Accessibility (a11y) and SEO friendly
-- Well-structured, fully commented code
-- Open source, easy to extend and maintain
+## Run Locally
+1. Open site/index.html in a browser
+2. If your browser blocks local media/file behaviors, run a static server in this folder
 
-## Quick Start
-1. Clone this repository
-2. Open `public/index.html` directly in your browser, or use a local server for preview
-3. See the `docs/` folder for design, upgrade, and contribution details
+## Notes
+- For strict visual parity, resources and file layout were not flattened into a single folder.
+- The current structure is intentionally organized for maintainability while preserving original path behavior.
 
-## Documentation Index
-- [Upgrade Guide](docs/UPGRADE_GUIDE.md)
-- [Design Document](docs/DESIGN.md)
-- [Contribution Guide](docs/CONTRIBUTING.md)
-- [Roadmap](docs/ROADMAP.md)
-- [FAQ](docs/FAQ.md)
-- [Issue Template](docs/ISSUE_TEMPLATE.md)
-- [Pull Request Template](docs/PULL_REQUEST_TEMPLATE.md)
-
-## License
-MIT License. See [LICENSE](LICENSE) for details.
-
-## About
-This project is a complete refactor of a 2022 hand-coded static site, now rebuilt with modern best practices. It demonstrates:
-- Deep understanding of native web technologies
-- Clean, maintainable, and scalable code
-- Full documentation and open source workflow
-
-Feel free to use, learn from, or contribute to this project!
+## Open Source Docs
+- Contributor Guide: docs/CONTRIBUTING.md
+- Code of Conduct: docs/CODE_OF_CONDUCT.md
+- Security Policy: docs/SECURITY.md
+- Changelog: docs/CHANGELOG.md
+- License: LICENSE
