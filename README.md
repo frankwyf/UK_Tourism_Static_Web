@@ -29,6 +29,12 @@ The website content and layout remain equivalent to the original final site, wit
 - For strict visual parity, resources and file layout were not flattened into a single folder.
 - The current structure is intentionally organized for maintainability while preserving original path behavior.
 
+## Large Media Package
+- GitHub has a hard 100 MB file limit per file. Two original videos were excluded from git history for publishability.
+- A separate media package is provided for full local playback: `UK_Tourism_media_pack.zip`.
+- Extract the zip at the project root so the original paths are restored under `site/`.
+- After extraction, videos on corresponding pages will play as in the coursework build.
+
 ## Open Source Docs
 - Contributor Guide: docs/CONTRIBUTING.md
 - Code of Conduct: docs/CODE_OF_CONDUCT.md
