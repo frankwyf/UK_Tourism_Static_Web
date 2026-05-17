@@ -1,0 +1,18 @@
+# Node/npm/yarn
+node_modules/
+dist/
+.cache/
+*.log
+
+# VSCode
+.vscode/
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Build output
+build/
+
+# Others
+.env
