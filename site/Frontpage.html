@@ -104,10 +104,15 @@
   </div>
 </header>
 
-<body class="back">
-  <h1 class="hometitle1"><i>A BREIF INTRODUCTION TO THE UNITED KINGDOM</i></h1>
-  <div class="background">
-    <div class="contenth">
+<body class="back" style="position:relative; min-height:100vh;">
+  <!-- 背景图片与渐变遮罩 -->
+  <div style="position:fixed;z-index:-2;inset:0;overflow:hidden;">
+    <img src="homepage/londonbridge.jpg" alt="UK background" style="width:100vw;height:100vh;object-fit:cover;object-position:center;filter:brightness(0.82) blur(1.5px);">
+    <div style="position:absolute;inset:0;background:linear-gradient(120deg,rgba(15,23,42,0.55) 0%,rgba(30,41,59,0.38) 60%,rgba(245,158,11,0.13) 100%);z-index:1;"></div>
+  </div>
+  <h1 class="hometitle1" style="backdrop-filter:blur(2px);background:rgba(15,23,42,0.38);border-radius:16px;padding:1.1rem 0.7rem;margin-top:2.2rem;box-shadow:0 4px 18px rgba(2,6,23,0.13);max-width:700px;margin-left:auto;margin-right:auto;"> <i>A BRIEF INTRODUCTION TO THE UNITED KINGDOM</i></h1>
+  <div class="background" style="background:rgba(30,41,59,0.62);backdrop-filter:blur(2.5px);box-shadow:0 8px 32px rgba(2,6,23,0.18);border-radius:18px;max-width:980px;margin:2.2rem auto 2.5rem;">
+    <div class="contenth" style="background:transparent;box-shadow:none;">
       <p>
         The United Kingdom of Great Britain and Northern Ireland or simply the United Kingdom (UK) is a sovereign country in Western Europe. It is a constitutional monarchy that is made up of four separate countries: England, Wales, Scotland and
         Northern
@@ -172,7 +177,7 @@
       </p>
       <p><strong>We hope this can provide you with some inspirations about where to visit in UK.</strong></p>
       </table>
-      <footer>
+      <footer style="background:rgba(15,23,42,0.72);backdrop-filter:blur(2px);border-radius:14px;margin-top:2.2rem;box-shadow:0 2px 12px rgba(2,6,23,0.10);">
         <li>About the author:<a id="author" href="html/author.html"> Author profile</a></li>
         <li>Feel free click the e-mail address below to contact me!</li>
         <li><a id="contact" href="mailto: contact@example.com">contact@example.com</a></li>
